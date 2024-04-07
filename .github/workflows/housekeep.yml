@@ -1,8 +1,8 @@
 ---
 name: Housekeeping
 on:
-  schedule:
-    - cron: "11 3 * * *" # daily at 3:11
+  # schedule:
+  #   - cron: "11 3 * * *" # daily at 3:11
   workflow_dispatch:
 
 permissions:
